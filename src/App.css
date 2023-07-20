@@ -1,0 +1,47 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+main {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  width: 100%;
+}
+main .header-container .menu-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+main .header-container .menu-options a {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+main .header-container .menu-options a:hover {
+  color: #7223cf;
+  transition: all 700ms;
+}
+main .header-container button {
+  border-radius: 24px;
+  border: none;
+  padding: 16px 24px;
+  color: #515151;
+  background: white;
+}
+
+@keyframes appear {}/*# sourceMappingURL=App.css.map */
